@@ -1,0 +1,135 @@
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #428ae9 ;
+}
+
+button a {
+    text-decoration: none;
+    color: white ;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width:59%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    width:39%;
+    height: 100%;
+    background-image: url(side.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.head{
+    width: 95%;
+
+}
+
+.head > p {
+    font-weight: bold;
+    font-size: 41px;
+    line-height: 38px;
+    word-spacing: 5px;
+    width: 95%;
+}
+
+.bar {
+    width: 20%;
+    height: 3px;
+    background-image: linear-gradient(to right, #428ae9 10%, white 10%, white 18%, #428ae9 18%);
+    border-radius: 3px;
+    margin-top: 2%;
+}
+
+.para {
+    width: 96%;
+    font-size: 12px;
+    
+
+}
+
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+
+}
+
+.lists span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.lists div {
+    width: calc(98% / 2);
+}
+
+.bold {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.ita {
+    font-style: italic;
+}
+
+.ch {
+    width: 12px;
+    height: 12px;
+}
+
+.call {
+    width:95%;
+}
+.call div {
+    display: inline-block;
+}
+
+.call img {
+    width: 43px;
+    height: 43px;
+    margin-right: 10px;
+}
+
+h4 {
+    color: #428ae9;
+}
+
+.btn {
+    width: 95%;
+}
+
+button{
+    background-color: #428ae9;
+    color: white;
+    text-align: center;
+    border: 0;
+    height: 44px;
+    width: 30%;
+}
